@@ -1,0 +1,80 @@
+html,body{
+    margin:0px;
+    height: 100%;
+    background-color: #f5ecec;
+
+}
+
+ul,li{
+    list-style: none;
+}
+.content{
+    height: 100%;
+    position: relative;
+    
+    
+}
+
+.footer-content{
+    position: fixed;
+    height: 4%;
+    bottom: 0;
+    background-color: black;
+}
+
+
+
+.logo-aviso-gratis, .logo-aviso-simple, .logo-aviso-destacado{
+    position: absolute;
+    height: 6.5rem;
+    width: 6.5rem;
+    z-index: 100;
+    border-radius: 100%;
+    padding-top: 0.4rem;
+    font-size: 3.5rem;
+
+    
+}
+
+
+
+.main-content{
+    padding-top: 4.2rem;
+    padding-bottom: 2.5rem;
+}
+
+
+
+.promocion-content{
+ 
+    border: 1px solid #CACFD2;
+}
+
+
+.info-content ul li{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+ 
+
+.promocion{
+    font-size: 4.5rem;
+    color: #E74C3C;
+}
+
+.promocion-img1{
+    background-image: url(../img/prom1.jpg);
+}
+
+.promocion-img2{
+    background-image: url(../img/prom2.jpg);
+}
+
+.promocion-img3{
+    background-image: url(../img/prom3.jpg);
+}
+
+.promocion-img1,.promocion-img2,.promocion-img3{
+    background-position: center;
+    background-size: cover;
+}

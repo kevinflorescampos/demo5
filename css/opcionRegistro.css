@@ -1,0 +1,45 @@
+html,body{
+    margin:0px;
+    height: 100%;
+
+}
+
+
+.content{
+    height: 100%;
+    position: relative;
+    background-color: #ffdfdf; 
+    /*background-color: #F1F1F1;*/
+    
+}
+
+
+
+.footer-content{
+    position: fixed;
+    height: 4%;
+    bottom: 0;
+    background-color: black;
+}
+
+#logoWK{
+    width: 100%;
+    margin-left: 0;
+}
+
+
+#mall{
+    position: relative;
+    display: block;
+}
+
+#mcontent{
+    margin-top: 8rem;
+}
+
+.btn-close{
+    position: absolute;
+    right: 1.5rem;
+
+    
+}

@@ -1,0 +1,21 @@
+.header-content{
+    position: absolute;
+    z-index: 100;
+}
+
+
+#logoRB{
+    width: 100%;
+    margin-left: 0;
+}
+
+.user{
+   
+    font-size: 2rem;
+    margin-top: 0;
+    color: white;
+}
+
+#dp{
+    left: -6.3rem;
+}

@@ -1,0 +1,90 @@
+html,body{
+    margin:0px;
+    height: 100%;
+
+}
+
+a, a:hover{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+
+.content{
+    height: 100%;
+    position: relative;
+
+    
+    
+}
+
+.main-content{
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.category-content{
+    border: 1px solid black;
+    border-radius: 0.4rem;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.icon2{
+    color: darkorange;
+}
+
+.productos-content{
+    background-color: #E5E7E9;
+}
+
+#orden{
+    height: 1.6rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.titulo-opcion{
+    border-bottom: 1px solid black;
+}
+
+.list-productos{
+    height: 50rem;
+    overflow-y: auto;
+    border: 1px solid #dcdedf;
+}
+
+.producto{
+    border: 2px solid bisque;
+}
+
+.producto-img-content{
+    height: 11.5rem;
+    overflow: hidden;
+}
+
+.producto-img{
+    width: 100%;
+}
+
+.info-text,.precio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-text{
+    font-size: 0.9rem;
+}
+.precio{
+    font-size: 1.2rem;
+}
+
+.footer-content{
+    position: fixed;
+    height: 4%;
+    bottom: 0;
+    background-color: black;
+}

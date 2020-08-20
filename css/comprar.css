@@ -1,0 +1,121 @@
+html,body{
+    margin:0px;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+a, a:hover{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+
+.content{
+    height: 100%;
+    position: relative;
+
+}
+
+.content-row{
+    height: 100%;
+    position: relative;
+    
+    
+}
+.main-content{
+    padding-top: 4.2rem;
+    padding-bottom: 1.5rem;
+
+}
+
+
+
+.index{
+    display: none;
+}
+
+
+#logoOR{
+    width: 100%;
+    margin-left: 0;
+}
+
+.index{
+    height: 100%;
+    background-image: url(../img/port6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    /*border-right: 0.1px solid #85929E;*/
+    
+}
+
+.index-content{
+    margin-top: 38%;
+}
+
+
+
+.login-content{
+    border: 1px solid #e4e4e4 ;
+    margin-top: 1.5rem;
+}
+
+.producto-info{
+    border: 1px solid #e4e4e4 ;
+}
+.producto-img{
+    width: 100%;
+}
+
+.footer-content{
+    height: 4%;
+    background-color: black ;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    background-color: transparent;
+    padding-left: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-input:focus {
+    outline: none;
+    font-size: 1.1rem;
+}
+
+#alerta{
+    position: absolute;
+    z-index: 100;
+    display: none;
+    
+}
+
+@media (min-width: 992px){
+
+    .index{
+        display: initial;
+    }
+
+    .form-logo{
+        height: 8rem;
+        width: 8rem;
+    }
+
+
+}

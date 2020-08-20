@@ -1,0 +1,159 @@
+html,body{
+    margin:0px;
+    height: 100%;
+
+}
+
+a{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: rgb(0, 26, 255);
+    text-decoration: none;
+    font-size: 110%;
+}
+.index{
+    display: none;
+}
+
+.content{
+    height: 100%;
+    position: relative;
+    
+}
+
+.content-row{
+    height: 100%;
+    position: relative;
+    
+    
+}
+
+#logoOR{
+    width: 100%;
+    margin-left: 0;
+}
+
+.index{
+    height: 100%;
+    background-image: url(../img/port7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /*border-right: 0.1px solid #85929E;*/
+    
+}
+
+.index-content{
+    margin-top: 38%;
+}
+
+.index-titulo{
+    background-color: black ;
+    opacity: 0.8;
+    
+}
+
+.titulo1{
+    font-size: 2.5rem;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.content-sub{
+    /*background-color: #ffe9e9;*/
+    background-image: url(../img/fondoLogin1.jpg);
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+
+
+
+.login-content{
+    border: 1.3px solid #D7DBDD ;
+    box-shadow: 0.5px 0.5px 1.5px black;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 4.8rem;
+}
+
+.footer-content{
+    height: 4%;
+    background-color: black ;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+.logo-content{
+    
+    position: relative;
+    height: 6rem;
+    top: -25px;
+}
+
+.form-logo{
+    height: 7rem;
+    width: 7rem;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 1rem;
+    border: 3px solid #d7dadb ; /* #D7DBDD */
+    position: relative;
+    top: -50px;
+
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    background-color: transparent;
+    color: white;
+    padding-left: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-input:focus {
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.logo-img{
+    width: 100%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.logo-titulo{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 0.4rem;
+}
+
+@media (min-width: 992px){
+
+    .index{
+        display: initial;
+    }
+
+    .form-logo{
+        height: 8rem;
+        width: 8rem;
+    }
+
+
+}

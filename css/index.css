@@ -1,0 +1,81 @@
+html,body{
+    margin:0px;
+    height: 100%;
+
+}
+
+
+.content{
+    height: 100%;
+    position: relative;
+
+    
+    
+}
+
+
+
+.main-content{
+    padding-bottom: 2rem;
+
+}
+
+.home-portada{
+    height: 30rem;
+    background-image: url(../img/homeport8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.atributo{
+    border: 1px solid #D7DBDD;
+    border-radius: 7%;
+}
+
+.atributo-img-content{
+    height: 6.5rem;
+    width: 6.5rem;
+    font-size: 4.5rem;
+}
+
+
+.icon-atributo{
+    color: #f31c52 ;
+}
+
+
+.port-content{
+    border-bottom: 3px solid #f31c52;
+}
+
+.titulo1{
+    font-size: 6.5rem;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.footer-content{
+    position: fixed;
+    height: 4%;
+    bottom: 0;
+    background-color: black;
+}
+
+
+
+
+
+
+@media (min-width: 992px){
+
+    .home-portada{
+        height: 40rem;
+    }
+
+
+
+}
